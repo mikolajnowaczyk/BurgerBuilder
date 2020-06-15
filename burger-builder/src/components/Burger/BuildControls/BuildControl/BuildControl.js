@@ -4,7 +4,6 @@ import classes from './BuildControl.css'
 import PropTypes from 'prop-types'
 
 const buildControl = (props) => {
-  console.log(props.disabled);
   return (
     <div className={classes.BuildControl}>
       <div className={classes.Label}>{props.label}</div>

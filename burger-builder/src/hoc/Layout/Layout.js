@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Aux from "../Auxiliary/Aux";
+import Aux from "../Auxiliary/Auxi";
 import classes from "./Layout.css";
 import PropTypes from 'prop-types';
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar'
@@ -32,7 +32,6 @@ class Layout extends Component {
       </Aux>)
   }
 }
-
 
 Layout.propTypes = {
   children: PropTypes.object

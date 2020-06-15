@@ -1,7 +1,7 @@
 
 import React from 'react'
 import PropTypes from 'prop-types'
-import Aux from '../../../hoc/Auxiliary/Aux'
+import Aux from '../../../hoc/Auxiliary/Auxi'
 import Button from '../../UI/Button/Button'
 
 
