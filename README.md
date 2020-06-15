@@ -1,2 +1,2 @@
 # BurgerBuilder
-My burger builder app created in react course
+My burger builder app created during doing react course
