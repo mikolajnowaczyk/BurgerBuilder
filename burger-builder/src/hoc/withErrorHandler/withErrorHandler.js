@@ -11,7 +11,7 @@ const withErrorHandler = (WrappedComponent) => {
       error: null
     }
     UNSAFE_componentWillMount() {
-      console.log("[withErrorHandler] Error!");
+      //console.log("[withErrorHandler] Error!");
       this.reqInterceptor = axios.interceptors.request.use(req => {
         this.setState({ error: null });
         return req;
