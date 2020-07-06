@@ -15,7 +15,7 @@ const toolbar = (props) => (
 
     </div>
     <nav className={classes.DesktopOnly}>
-      <NavigationItems />
+      <NavigationItems isAuthenticated={props.isAuth} />
     </nav>
   </header>
 )
@@ -24,7 +24,8 @@ toolbar.propTypes = {
   children: PropTypes.object,
   show: PropTypes.bool,
   modalClosed: PropTypes.func,
-  drawerToggleClicked: PropTypes.func
+  drawerToggleClicked: PropTypes.func,
+  isAuth: PropTypes.bool
 }
 
 export default toolbar
