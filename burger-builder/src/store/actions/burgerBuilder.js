@@ -33,7 +33,6 @@ export const initIngredients = () => {
   return dispatch => {
     axios.get('https://burger-builder-eecea.firebaseio.com/ingredients.json')
       .then(response => {
-        console.log("test")
         dispatch(setIngredients(response.data))
       })
       // eslint-disable-next-line
